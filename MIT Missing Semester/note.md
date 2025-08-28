@@ -59,7 +59,9 @@ print(f"结果：{result}")  # 输出：结果：5
 
 ##### 1. 行内链接（最常用）
 语法：[链接显示文本] (链接地址 "可选的鼠标悬停提示")
-举例：[百度一下，你就知道](https://www.baidu.com "百度")
+举例：
+- [百度一下，你就知道](https://www.baidu.com "百度")
+- [Markdown 官方文档](https://daringfireball.net/projects/markdown/ "Markdown Official Site")
 
 ##### 2. 参考链接（适合长文档）
 效果与行内链接一致，但更便于修改（只需改末尾的链接地址，所有引用处同步生效）。
@@ -68,5 +70,11 @@ print(f"结果：{result}")  # 输出：结果：5
 
 [guide]: https://www.markdownguide.org "Markdown Guide"
 [example]: https://www.markdownguide.org/basic-syntax/ "Markdown Syntax Examples"
+
+#### 图片（Image）
+语法与链接类似，仅在开头多一个 !，格式：![图片加载失败时的替代文本] (图片地址 "可选的鼠标悬停提示")。
+
+![桌面壁纸](https://ts1.tc.mm.bing.net/th/id/OIP-C.StrDRqennoZNbzSPZapKZwAAAA?r=0&rs=1&pid=ImgDetMain&o=7&rm=3 "壁纸")
+
 
 # Git
